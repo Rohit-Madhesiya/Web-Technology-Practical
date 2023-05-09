@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Indian Flag</title>
+  <style>
+    .multiFlag {
+      /* display: flex; */
+    }
+
+    #flag2 {
+      image-orientation: flip;
+      transform: rotate(-45deg);
+      z-index: -1;
+    }
+
+    .fullflag {
+      display: flex;
+      justify-content: center;
+      transform: rotate(45deg);
+    }
+
+    .flag {
+      margin-top: 10px;
+    }
+
+    .flag>div {
+      width: 150px;
+      height: 50px;
+    }
+
+    .top {
+      background-color: #FF671F;
+    }
+
+    .mid {
+      background-color: white;
+      display: flex;
+      justify-content: center;
+    }
+
+    .bottom {
+      background-color: #046A38;
+    }
+
+    .stick {
+      width: 10px;
+      height: 400px;
+      border: solid transparent;
+      border-radius: 150px 150px 400px 400px;
+      margin: 2px;
+      background-color: rgb(66, 0, 0);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="multiFlag">
+    <div class="fullflag">
+      <div class="stick"></div>
+      <div class="flag">
+        <div class="top"></div>
+        <div class="mid"><img src="wheel-41387.svg" alt="Ashoka Chakra"></div>
+        <div class="bottom"></div>
+      </div>
+    </div>
+    <div class="fullflag" id="flag2">
+      <div class="stick"></div>
+      <div class="flag">
+        <div class="top"></div>
+        <div class="mid"><img src="wheel-41387.svg" alt="Ashoka Chakra"></div>
+        <div class="bottom"></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

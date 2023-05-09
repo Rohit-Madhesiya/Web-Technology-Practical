@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <title>Register Form</title>
+</head>
+
+<body>
+    <div class="formDiv">
+        <form action="" method="POST">
+            <h2>Register Form</h2>
+            <hr>
+            <div class="nameDiv">
+                <label for="name">Name</label>
+                <select name="proto">
+					<option name="mr">Mr.</option>
+					<option name="ms">Ms.</option>
+					<option name="mrs">Mrs.</option>
+					<option name="dr">Dr.</option>
+				</select>
+                <input type="text" placeholder="Enter Name">
+            </div>
+            <div class="emailDiv">
+                <label for="email">E-mail</label>
+                <input type="email" placeholder="Enter Email Address">
+            </div>
+            <div class="mobNoDiv">
+                <label for="mobile">Mobile Number</label>
+                <input type="number" placeholder="Enter Mobile Number">
+            </div>
+            <div class="passDiv">
+                <label for="pass">Password</label>
+                <input type="password" placeholder="Enter Password">
+            </div>
+            <div class="confPassDiv">
+                <label for="confPass">Confirm Password</label>
+                <input type="password" placeholder="Confirm your Password">
+            </div>
+            <div class="securityDiv">
+                <fieldset>
+                    <legend>Security Question</legend>
+                    <select name="quest">
+						<option name="nationality">What is your Nationality?</option>
+						<option name="first school name">What is your First School Name?</option>
+						<option name="first pet name">What is yout First Pet Name?</option>
+						<option name="nickname">What is your Nickname?</option>
+					</select>
+                    <input type="text" placeholder="Enter Answer Here">
+                </fieldset>
+            </div>
+            <div class="agreeDiv">
+                <input type="checkbox"> I have read and Agree to the <a href="">terms and conditions.*</a>
+            </div>
+            <div class="buttonDiv">
+                <input type="submit" value="Create">
+            </div>
+            <div class="signInDiv">
+                <a href="">Already have an Account?</a>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
